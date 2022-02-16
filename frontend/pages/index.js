@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Product from "../components/Product";
+import ProductsPage from "./products";
 
 const IndexPage = () => {
   return (
@@ -7,7 +7,7 @@ const IndexPage = () => {
       <Head>
         <title>Sudo Shoppers || Home</title>
       </Head>
-      <h1>Hello! This is the Home Page</h1>
+      <ProductsPage />
     </>
   );
 };

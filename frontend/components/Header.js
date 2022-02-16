@@ -40,7 +40,7 @@ const Header = () => {
     <HeaderStyles>
       <div className="bar">
         <Logo>
-          <Link href="/">Sudo Shoppers</Link>
+          <Link href="/">SickFits</Link>
         </Logo>
         <Navigation />
       </div>
